@@ -90,7 +90,7 @@
 
 <span name="link1">[1]</span> [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
-<span name="link2">[2]</span> [Commit message 和 Change log 编写指南](https://github.com/conventional-changelog/standard-version)
+<span name="link2">[2]</span> [standard-version](https://github.com/conventional-changelog/standard-version)
 
 <span name="link3">[3]</span> [如何配置 Git Commit Message](https://zhuanlan.zhihu.com/p/69635847)
 
