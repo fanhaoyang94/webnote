@@ -72,7 +72,21 @@
 
 4. 以后，凡是用到 `git commit` 命令，一律改为使用 `git cz` 。这时，就会出现选项，用来生成符合格式的 Commit message
 
-## 参考链接：
+```
+  1.Select the type of change that you're committing 选择改动类型 (<type>)
+
+  2.What is the scope of this change (e.g. component or file name)? 填写改动范围 (<scope>)
+
+  3.Write a short, imperative tense description of the change: 写一个精简的描述 (<subject>)
+
+  4.Provide a longer description of the change: (press enter to skip) 对于改动写一段长描述 (<body>)
+
+  5.Are there any breaking changes? (y/n) 是破坏性修改吗？默认n (<footer>)
+
+  6.Does this change affect any openreve issues? (y/n) 改动修复了哪个问题？默认n (<footer>)
+```
+
+## 参考链接
 
 [如何配置 Git Commit Message](https://zhuanlan.zhihu.com/p/69635847)
 
