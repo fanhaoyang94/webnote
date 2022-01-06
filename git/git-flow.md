@@ -4,7 +4,7 @@ Git 工作流的一种，可以规范团队成员 git 操作，合理的管理�
 
 ## Git Flow 流程图
 
-![Git Flow](./img/gitflow.jpg)
+![Git Flow](./img/gitflow.png)
 
 ## Branches 介绍
 
