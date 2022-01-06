@@ -35,7 +35,7 @@
 }
 ```
 
-3. standard-version 如果我们想自动生成 CHANGELOG，语义化我们的版本[（Semantic Versioning）](https://semver.org/lang/zh-CN/)。 就需要借助 [standard-version](https://github.com/conventional-changelog/standard-version)
+3. standard-version 如果我们想自动生成 CHANGELOG，语义化我们的版本[（Semantic Versioning）](https://semver.org/lang/zh-CN/)[[1]](#link1)。 就需要借助 [standard-version](https://github.com/conventional-changelog/standard-version)[[2]](#link2)
 
 ```
   $ npm install standard-version -D
@@ -88,6 +88,10 @@
 
 ## 参考链接
 
-[如何配置 Git Commit Message](https://zhuanlan.zhihu.com/p/69635847)
+<span name="link1">[1]</span> [Semantic Versioning](https://semver.org/lang/zh-CN/)
 
-[Commit message 和 Change log 编写指南](https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
+<span name="link2">[2]</span> [Commit message 和 Change log 编写指南](https://github.com/conventional-changelog/standard-version)
+
+<span name="link3">[3]</span> [如何配置 Git Commit Message](https://zhuanlan.zhihu.com/p/69635847)
+
+<span name="link4">[4]</span> [Commit message 和 Change log 编写指南](https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)

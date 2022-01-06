@@ -160,7 +160,7 @@ $ git remote show [remote]
 $ git remote add [shortname] [url]
 ```
 
-<a name="rebase"></a> 9. git rebase 不要通过 rebase 对任何已经提交到公共仓库中的 commit 进行修改（你自己一个人玩的分支除外）参考[1](#link1)
+<a name="rebase"></a> 9. git rebase 不要通过 rebase 对任何已经提交到公共仓库中的 commit 进行修改（你自己一个人玩的分支除外）参考[[1]](#link1)
 
 - 合并多个 commit 为一个完整 commit
 
