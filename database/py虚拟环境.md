@@ -2,18 +2,35 @@
 
 1. 安装目录
 
-   - D:\Python39
-   - python.exe
-   - Scripts - pip.exe
-   - Lib # python 内置的所有的模块以及 sitepackages 文件夹 - random - re - sitepackages # 通过 pip 安装的所有的第三方包 - requests v1.5 - bs4 - xpath
+   D:/
+   ├── Python39/
+   │   └── python.exe
+   ├── Scripts/
+   │   └── pip.exe
+   └── Lib/                   # python 内置的所有的模块以及 sitepackages 文件夹
+       └── site-packages/     # 通过 pip 安装的所有的第三方包
+           ├── random
+           ├── re 
+           ├── requests v1.5 
+           ├── bs4 
+           └── xpath
 
 2. 创建虚拟环境后会 copy 一份环境
 
-   - eg：项目 A
-   - D:\A
-   - python.exe
-   - Scripts - pip.exe
-   - Lib - 依赖系统解释器 - sitepackages # 通过 pip 安装的所有的第三方包 - requests v1.5 - bs4 - xpath
+   eg：项目 A
+   D:/
+   └── A/
+       └── .venv/
+            ├── Scripts/                        # Scripts/ (Windows) 或 bin/ (Linux/Unix)
+            │   └── pip.exe
+            └── Lib/                            # 依赖系统解释器
+                └── python3.9/                  # 虚拟环境依赖的所有的第三方包
+                    └── site-packages/          # 通过 pip 安装的所有的第三方包
+                        ├── random
+                        ├── re 
+                        ├── requests v1.5 
+                        ├── bs4 
+                        └── xpath
 
 当项目结束后执行
 
