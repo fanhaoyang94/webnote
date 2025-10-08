@@ -2,7 +2,7 @@
 
 前端开发相关笔记
 
-### git
+## git
 
 1. [commit message 规范](./git/git-commit-message.md)
 2. [Git flow 工作流](./git/git-flow.md)
